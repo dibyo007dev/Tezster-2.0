@@ -1,11 +1,11 @@
 @font-face {
   font-family: Gilroy-light;
-  src: url('../../resources/gilroy-font/Gilroy-Light.otf');
+  src: url('../../../resources/gilroy-font/Gilroy-Light.otf');
 }
 @font-face {
   font-family: Gilroy-bold;
   font-weight: bold;
-  src: url('../../resources/gilroy-font/Gilroy-ExtraBold.otf');
+  src: url('../../../resources/gilroy-font/Gilroy-ExtraBold.otf');
 }
 body {
   background-color: #f5f6fa !important;
@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 .green-circle {
-  background: url('../../resources/icons/24px_settings-gear.svg');
+  background: url('../../../resources/icons/24px_settings-gear.svg');
   display: inline-flex;
   height: 2rem;
   width: 2rem;
@@ -140,7 +140,7 @@ body {
   cursor: pointer;
 }
 .logo-icon {
-  background: url('../../resources/icons/Group 40.svg');
+  background: url('../../../resources/icons/Group 40.svg');
   display: inline-flex;
   height: 2rem;
   width: 6rem;

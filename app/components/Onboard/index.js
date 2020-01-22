@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Onboard() {
   return (
@@ -17,20 +18,20 @@ function Onboard() {
           </p>
         </div>
         <div className="workplace-button-container">
-          <button
-            type="button"
+          <Link
+            to="/workspace"
             className="btn btn-success btn-lg
                           quick-start-button"
           >
             Quick Start
-          </button>
-          <button
-            type="button"
+          </Link>
+          <Link
+            to="/workspace"
             className="btn btn-success btn-lg
                           new-workspace-button"
           >
             New Workspace
-          </button>
+          </Link>
         </div>
         <div className="workplace-update-container">
           <div className="footer-text">

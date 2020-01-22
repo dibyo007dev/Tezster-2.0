@@ -1,0 +1,57 @@
+.container-dashboard {
+  background-color: #cccc;
+  padding: 10px;
+}
+.cards {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #ffff;
+  color: #727d95;
+  font-weight: 700;
+  box-shadow: 7px 7px 4px -3px #ccc;
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.cards-header > h4 {
+  font-size: 0.875rem;
+}
+.cards-contents > p {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.save-button {
+  width: 50%;
+  border: 1px solid #39b999;
+  color: #fff;
+  background-color: #39b999;
+  padding-right: 18px;
+  padding-left: 18px;
+  font-size: medium;
+  align-self: center;
+  text-align: center;
+  border-radius: 15px 0 0 15px;
+}
+.switch-button {
+  width: 50%;
+  border: 1px solid #39b999;
+  color: #fff;
+  background-color: #39b999;
+  padding-right: 18px;
+  padding-left: 18px;
+  font-size: medium;
+  align-self: center;
+  text-align: center;
+  border-radius: 0 15px 15px 0;
+  border-left: 1px solid white;
+}
+.button-card {
+  display: flex;
+  flex-direction: row;
+}
